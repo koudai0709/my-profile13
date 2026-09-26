@@ -1,0 +1,15 @@
+@import "tailwindcss" source(".");
+
+body {
+  margin: 0;
+  font-family: "Yu Gothic", "Meiryo", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 3px solid #0f766e;
+  outline-offset: 3px;
+}
